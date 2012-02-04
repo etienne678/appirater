@@ -4,8 +4,8 @@
 
    Created by Martin Kavalar on 11/15/10.
  */
-"AppiraterMessage" = "If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!";
-"AppiraterTitle" = "Rate %@";
+"AppiraterMessage" = "If you enjoy using Kebab Maker, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!";
+"AppiraterTitle" = "Rate Kebab Maker";
 "AppiraterCancelButton" = "No, Thanks";
 "AppiraterRateLaterButton" = "Remind me later";
-"AppiraterRateButton" = "Rate %@";
+"AppiraterRateButton" = "Sure, why not!";

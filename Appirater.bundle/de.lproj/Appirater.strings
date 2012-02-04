@@ -4,8 +4,8 @@
 
    Created by Martin Kavalar on 11/15/10.
  */
-"AppiraterMessage" = "Gefällt Dir %@? Dann bewerte ihn doch kurz. Es dauert nur eine Minute. Danke für Deine Unterstützung!";
-"AppiraterTitle" = "%@ bewerten";
-"AppiraterCancelButton" = "Nein, danke";
+"AppiraterMessage" = "Gefällt Dir der Döner Maker? Dann bewerte ihn doch kurz. Es dauert nur eine Minute. Danke für Deine Unterstützung!";
+"AppiraterTitle" = "Döner Maker bewerten";
+"AppiraterCancelButton" = "Nein Danke";
 "AppiraterRateLaterButton" = "Später nochmal fragen";
-"AppiraterRateButton" = "%@ bewerten";
+"AppiraterRateButton" = "Ja Mann!";
