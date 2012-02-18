@@ -54,7 +54,7 @@ NSBundle *appiraterBundle(void) {
   if (!bundle) {
     NSString* path = [[[NSBundle mainBundle] resourcePath]
                       stringByAppendingPathComponent:kAppiraterBundleName];
-    bundle = [[NSBundle bundleWithPath:path] retain];
+    bundle = [NSBundle bundleWithPath:path];
   }
   return bundle;
 }
@@ -113,11 +113,11 @@ NSBundle *appiraterBundle(void) {
 }
 
 - (void)showRatingAlert {
-	UIAlertView *alertView = [[[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:AppiraterLocalize(@"AppiraterTitle"), APPIRATER_APP_NAME]
+	UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:AppiraterLocalize(@"AppiraterTitle"), APPIRATER_APP_NAME]
                                                        message:[NSString stringWithFormat:AppiraterLocalize(@"AppiraterMessage"), APPIRATER_APP_NAME]
                                                       delegate:self
                                              cancelButtonTitle:AppiraterLocalize(@"AppiraterCancelButton")
-                                             otherButtonTitles:[NSString stringWithFormat:AppiraterLocalize(@"AppiraterRateButton"), APPIRATER_APP_NAME], AppiraterLocalize(@"AppiraterRateLaterButton"), nil] autorelease];
+                                             otherButtonTitles:[NSString stringWithFormat:AppiraterLocalize(@"AppiraterRateButton"), APPIRATER_APP_NAME], AppiraterLocalize(@"AppiraterRateLaterButton"), nil];
 	self.ratingAlert = alertView;
 	[alertView show];
 }
