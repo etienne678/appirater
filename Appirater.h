@@ -85,14 +85,14 @@ NSBundle *appiraterBundle(void);
  a significant event, call the method:
  [Appirater userDidSignificantEvent:];
  */
-#define APPIRATER_SIG_EVENTS_UNTIL_PROMPT	-1	// integer
+#define APPIRATER_SIG_EVENTS_UNTIL_PROMPT	4	// integer
 
 /*
  Once the rating alert is presented to the user, they might select
  'Remind me later'. This value specifies how long (in days) Appirater
  will wait before reminding them.
  */
-#define APPIRATER_TIME_BEFORE_REMINDING		2	// double
+#define APPIRATER_TIME_BEFORE_REMINDING		5	// double
 
 /*
  '1' will show the Appirater alert everytime. Useful for testing how your message
